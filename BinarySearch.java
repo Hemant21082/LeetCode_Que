@@ -2,7 +2,7 @@ public class BinarySearch {
 
     public static int binary_search(int arr[],int key){
         int start = 0;
-        int end = arr.length;
+        int end = arr.length-1;
 
         while(start<=end){
             int mid = (start + end)/2;
